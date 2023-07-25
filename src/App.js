@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
-import AllMenu from './components/AllMenu/AllMenu';
+import Main from './components/Main/Main';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import './style.css';
@@ -13,9 +13,7 @@ export default function App() {
         <Header />
         <div className="contents">
           <Routes>
-            <Route path="/" element={}>
-              
-            </Route>
+            <Route path="/" element={<Main />}></Route>
           </Routes>
         </div>
         <Footer />

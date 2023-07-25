@@ -3,6 +3,12 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+a,
+button {
+  border: 0;
+}
+
 h1,
 p {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
@@ -24,6 +30,26 @@ p {
   width: 100%;
   height: 52px;
   background-color: skyblue;
+  text-align: center;
+  padding: 0 100px;
+}
+
+.headerWrap .back {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.headerWrap .home {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.headerWrap strong {
+  display: block;
+  line-height: 52px;
 }
 
 .footerWrap {
