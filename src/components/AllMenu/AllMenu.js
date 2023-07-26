@@ -6,8 +6,7 @@ export default function AllMenu() {
   useEffect(() => {
     // alert('c');
     console.log('cc');
-  }, [inOpen]);
-  s;
+  });
   return (
     <div className="AllMenuWrap">
       <button>메뉴</button>
