@@ -44,7 +44,7 @@ p {
   transform: translateY(-50%);
 }
 
-.headerWrap .menu {
+.headerWrap .AllMenuWrap {
   position: absolute;
   right: 20px;
   top: 50%;
