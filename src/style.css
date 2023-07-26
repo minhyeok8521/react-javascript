@@ -7,6 +7,8 @@
 a,
 button {
   border: 0;
+  color: #000;
+  text-decoration: none;
 }
 
 h1,
@@ -32,6 +34,7 @@ p {
   background-color: skyblue;
   text-align: center;
   padding: 0 100px;
+  z-index: 100;
 }
 
 .headerWrap .back {
@@ -41,7 +44,7 @@ p {
   transform: translateY(-50%);
 }
 
-.headerWrap .home {
+.headerWrap .menu {
   position: absolute;
   right: 20px;
   top: 50%;
@@ -60,8 +63,22 @@ p {
   width: 100%;
   height: 70px;
   background-color: blueviolet;
+  z-index: 100;
 }
 
 .contents {
   padding: 52px 0 70px;
+}
+
+.mainList li {
+  display: inline-block;
+  vertical-align: top;
+  width: 25%;
+}
+
+.mainList li .userProfile {
+  display: block;
+  line-height: 50px;
+  text-align: center;
+  background-color: red;
 }

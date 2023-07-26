@@ -1,14 +1,13 @@
-import React from 'react';
-import Link from 'react-router-dom';
+import React, { useEffect } from 'react';
 
 export default function AllMenu() {
+  useEffect(() => {
+    // alert('c');
+  });
+
   return (
     <div className="AllMenuWrap">
-      <ul>
-        <li>
-          <Link to="Profile">자기소개</Link>
-        </li>
-      </ul>
+      <button>메뉴</button>
     </div>
   );
 }
